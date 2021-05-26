@@ -38,8 +38,8 @@ public WebDriver ldriver;
 		
 		ldriver.findElement(lnkCustomerMenu).click();
 	}
-	public void clickOnCustomerMenuItem() {
-		
+	public void clickOnCustomerMenuItem() throws InterruptedException {
+		Thread.sleep(2000);
 		ldriver.findElement(lnkCustomerMenuItem).click();
 	}
 	public void clickOnAddCustomer() {

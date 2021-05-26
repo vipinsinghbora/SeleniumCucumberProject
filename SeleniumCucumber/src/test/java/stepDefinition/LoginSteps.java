@@ -10,6 +10,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
+import pageObjects.SearchCustomerPage;
 import utilities.BaseClass;
 
 public class LoginSteps extends BaseClass {
@@ -84,7 +85,7 @@ public class LoginSteps extends BaseClass {
 	}
 
 	@And("click on customer menu Item")
-	public void click_on_customer_menu_item() {
+	public void click_on_customer_menu_item() throws InterruptedException {
 		addCust.clickOnCustomerMenuItem();
 	    
 	}
@@ -127,6 +128,35 @@ public class LoginSteps extends BaseClass {
 		Assert.assertTrue(driver.findElement(By.tagName("body")).getText()
 				.contains("The new customer has been added successfully."));
 	   
+	}
+	
+	//Steps for search customer
+	
+	@Then("User can view customer page")
+	public void user_can_view_customer_page() {
+		Assert.assertEquals("Customers / nopCommerce administration", addCust.getPageTitle());
+	   
+	}
+
+
+	@When("User enter email address")
+	public void user_enter_email_address() {
+		searchCust=new SearchCustomerPage(driver);
+		searchCust.setEmail("admin@yourStore.com");
+	    
+	    
+	}
+	@When("Click on Search button")
+	public void click_on_search_button() throws InterruptedException {
+		searchCust.clickSearch();
+		Thread.sleep(3000);
+	    
+	}
+	@Then("Customer record should be visible")
+	public void customer_record_should_be_visible() {
+		boolean status=searchCust.searchCustomerByEmail("admin@yourStore.com");
+		Assert.assertEquals(status, true);
+	    
 	}
 
 }
