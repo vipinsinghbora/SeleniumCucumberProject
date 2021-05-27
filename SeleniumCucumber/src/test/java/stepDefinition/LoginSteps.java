@@ -1,9 +1,18 @@
 package stepDefinition;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,30 +24,63 @@ import utilities.BaseClass;
 
 public class LoginSteps extends BaseClass {
 	
+	@Before
+	public void setup() throws IOException {
+		configProp=new Properties();
+		FileInputStream configfile=new FileInputStream("configure.properties");
+		configProp.load(configfile);
+		
+		// Added logger
+		logger = Logger.getLogger("SeleniumCucumber");
+		PropertyConfigurator.configure("log4j.properties");
+		
+		String browser=configProp.getProperty("browser");
+		
+		if(browser.equals("chrome")) {
+			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//Drivers//chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",configProp.getProperty("chromepath"));
+			driver = new ChromeDriver();
+		}
+		else if(browser.equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver",configProp.getProperty("firefoxpath"));
+			driver = new FirefoxDriver();
+		}
+		else {
+			System.setProperty("webdriver.ie.driver",configProp.getProperty("iepath"));
+			driver = new InternetExplorerDriver();
+			
+		}
+		logger.info("*******  Launching Browser**********");
+				
+		
+	}
+	
 	
 	@Given("User launch chrome browser")
 	public void user_launch_chrome_browser() {
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
-		driver=new ChromeDriver();
+		
+		
 		lp=new LoginPage(driver);
 	}
 
 	@When("User open url {string}")
 	public void user_open_url(String url) {
-	    
+		logger.info("*******  Opening URL **********");
 	    driver.get(url);
 	    driver.manage().window().maximize();
 	}
 
 	@When("User enter email as {string} and password as {string}")
 	public void user_enter_email_as_and_password_as(String email, String password) {
-	    lp.setUsername(email);
+		logger.info("*******  Providing login details**********");
+		lp.setUsername(email);
 	    lp.setPassword(password);
 	   
 	}
 
 	@When("Click on login")
 	public void click_on_login() {
+		logger.info("*******  Started Login **********");
 	   lp.clickLogin();
 	    
 	}
@@ -47,10 +89,12 @@ public class LoginSteps extends BaseClass {
 	public void page_title_should_be(String title) {
 	    
 		if(driver.getPageSource().contains("Login was unsuccessful")) {
+			logger.info("*******  Login Failed **********");
 			driver.close();
 			Assert.assertTrue(false);
 		}
 		else {
+			logger.info("*******  Login Passed **********");
 			Assert.assertEquals(title, driver.getTitle());
 		}
 	    
@@ -58,13 +102,15 @@ public class LoginSteps extends BaseClass {
 
 	@When("User click on logout link")
 	public void user_click_on_logout_link() throws InterruptedException {
-	    lp.clickLogout();
+		logger.info("*******  Click on logout **********");
+		lp.clickLogout();
 	    Thread.sleep(3000);
 	   
 	}
 	
 	@And("Close browser")
 	public void Close_browser() {
+		logger.info("*******  Closing browser **********");
 	    driver.close();
 	   
 	}
@@ -104,6 +150,7 @@ public class LoginSteps extends BaseClass {
 
 	@When("User enter customer info")
 	public void user_enter_customer_info() throws InterruptedException {
+		logger.info("*******  Adding new Customer Info **********");
 		String email=randomString()+"@gmail.com";
 		addCust.setEmail(email);
 		addCust.setPassword("Test123");
@@ -118,6 +165,7 @@ public class LoginSteps extends BaseClass {
 
 	@When("click on save button")
 	public void click_on_save_button() throws InterruptedException {
+		logger.info("*******  Saving customer data **********");
 		addCust.save();
 		Thread.sleep(2000);
 	    

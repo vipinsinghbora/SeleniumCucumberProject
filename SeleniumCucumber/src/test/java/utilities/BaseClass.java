@@ -1,6 +1,9 @@
 package utilities;
 
+import java.util.Properties;
+
 import org.apache.commons.lang.RandomStringUtils;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import pageObjects.AddCustomerPage;
@@ -13,6 +16,8 @@ public class BaseClass {
 	public LoginPage lp;
 	public AddCustomerPage addCust;
 	public SearchCustomerPage searchCust;
+	public static Logger logger;
+	public Properties configProp;
 	
 	
 	//Generated Random String
