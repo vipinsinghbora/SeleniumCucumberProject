@@ -54,4 +54,28 @@
   2021-05-27 22:10:12 INFO  SeleniumCucumber:75 - *******  Providing login details**********
   2021-05-27 22:10:12 INFO  SeleniumCucumber:83 - *******  Started Login **********
   2021-05-27 22:10:36 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-30 11:57:17 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-30 11:57:17 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-30 11:57:19 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-30 11:57:19 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-30 11:57:32 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-30 11:57:38 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-30 11:57:43 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-30 11:57:44 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-30 11:57:44 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-30 11:57:46 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-30 11:57:46 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-30 11:58:02 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-30 12:03:54 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-30 12:03:54 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-30 12:03:56 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-30 12:03:56 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-30 12:04:09 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-30 12:04:14 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-30 12:04:20 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-30 12:04:21 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-30 12:04:21 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-30 12:04:23 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-30 12:04:23 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-30 12:04:37 INFO  SeleniumCucumber:113 - *******  Closing browser **********
   
