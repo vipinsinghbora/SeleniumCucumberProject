@@ -78,4 +78,184 @@
   2021-05-30 12:04:23 INFO  SeleniumCucumber:75 - *******  Providing login details**********
   2021-05-30 12:04:23 INFO  SeleniumCucumber:83 - *******  Started Login **********
   2021-05-30 12:04:37 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 02:09:34 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 02:09:34 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 02:09:36 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 02:09:37 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 02:09:53 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 02:09:58 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 02:10:03 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 02:10:04 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 02:10:04 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 02:10:06 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 02:10:07 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 02:10:22 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 02:13:39 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 02:13:39 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 02:13:41 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 02:13:41 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 02:13:56 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 02:14:02 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 02:14:07 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 02:14:08 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 02:14:08 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 02:14:10 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 02:14:10 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 02:14:26 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 15:23:10 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 15:23:10 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 15:23:12 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 15:23:13 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 15:23:29 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 15:23:36 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 15:23:40 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 15:23:41 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 15:23:41 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 15:23:43 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 15:23:43 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 15:24:00 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 15:26:42 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 15:26:42 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 15:26:45 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 15:26:45 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 15:27:00 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 15:27:07 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 15:27:12 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 15:27:14 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 15:27:14 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 15:27:15 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 15:27:15 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 15:27:29 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 20:40:31 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 20:40:31 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 20:40:32 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 20:40:33 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 20:40:44 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 20:40:50 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 20:40:55 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 20:40:56 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 20:40:56 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 20:40:58 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 20:40:58 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 20:41:12 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 20:43:33 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 20:43:33 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 20:43:35 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 20:43:36 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 20:43:47 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 20:43:52 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 20:43:57 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 20:43:58 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 20:43:58 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 20:44:00 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 20:44:00 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 20:44:14 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 20:45:40 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 20:45:40 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 20:45:42 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 20:45:43 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 20:45:57 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 20:46:02 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 20:46:07 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 20:46:08 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 20:46:08 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 20:46:10 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 20:46:10 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 20:46:26 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 20:50:25 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 20:50:25 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 20:50:27 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 20:50:28 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 20:50:40 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 20:50:46 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 20:50:50 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 20:50:51 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 20:50:51 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 20:50:53 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 20:50:53 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 20:51:09 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:00:55 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:00:55 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:00:57 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:00:57 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:01:11 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 21:01:17 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 21:01:21 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:01:22 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:01:22 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:01:25 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:01:25 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:01:40 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:10:39 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:10:39 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:10:42 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:10:42 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:10:57 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 21:11:03 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 21:11:07 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:11:08 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:11:08 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:11:10 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:11:11 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:11:27 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:15:50 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:15:50 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:15:52 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:15:52 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:16:04 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 21:16:10 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 21:16:15 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:16:16 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:16:16 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:16:19 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:16:19 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:16:32 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:20:06 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:20:06 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:20:09 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:20:09 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:20:24 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 21:20:30 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 21:20:34 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:20:35 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:20:35 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:20:36 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:20:36 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:20:49 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:23:36 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:23:36 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:23:38 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:23:38 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:23:55 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 21:24:01 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 21:24:06 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:24:07 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:24:07 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:24:10 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:24:10 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:24:27 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:29:53 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:29:53 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:29:55 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:29:55 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:30:06 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 21:30:12 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 21:30:16 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:30:17 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:30:17 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:30:19 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:30:19 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:30:32 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:48:00 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:48:00 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:48:02 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:48:02 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:48:13 INFO  SeleniumCucumber:153 - *******  Adding new Customer Info **********
+  2021-05-31 21:48:18 INFO  SeleniumCucumber:168 - *******  Saving customer data **********
+  2021-05-31 21:48:22 INFO  SeleniumCucumber:113 - *******  Closing browser **********
+  2021-05-31 21:48:23 INFO  SeleniumCucumber:53 - *******  Launching Browser**********
+  2021-05-31 21:48:23 INFO  SeleniumCucumber:68 - *******  Opening URL **********
+  2021-05-31 21:48:25 INFO  SeleniumCucumber:75 - *******  Providing login details**********
+  2021-05-31 21:48:25 INFO  SeleniumCucumber:83 - *******  Started Login **********
+  2021-05-31 21:48:38 INFO  SeleniumCucumber:113 - *******  Closing browser **********
   

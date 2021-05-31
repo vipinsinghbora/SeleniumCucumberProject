@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 				dryRun=false,
 				monochrome=true,
 				tags= "@Smoke",
-				plugin= {"pretty","html:target/report/cucumber.html"}
+				plugin= {"pretty","html:test-output/report/cucumber.html"}
 //				plugin= {"pretty","json:target/report/cucumber.json"}
 //				plugin= {"pretty","junit:target/report/cucumber.junit"}
 		)
